@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 119007903
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5ee5e4f68c2a38a556235cd4664f9760
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c502d9503e0b9bddb1bb07db6694a9c6
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 5ee5e4f68c2a38a556235cd4664f9760
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62d8ca468bccf1443a18fafb51ac9dd1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 715025fa0e08c8d4a839d50e14c0a528, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/Universe.prefab
+Dependencies: []

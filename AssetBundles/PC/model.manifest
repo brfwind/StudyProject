@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 1082685926
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 17297f5e66bf52bbef6536c86a8f92c1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a2324d7a9d7d81ad273145ab3855f5cf
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 17297f5e66bf52bbef6536c86a8f92c1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/Tank.prefab
+Dependencies: []

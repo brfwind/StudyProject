@@ -12,7 +12,7 @@ public class Camera : MonoBehaviour
     {
         mouseSpeed = Input.GetAxis("Mouse X");
 
-        this.transform.LookAt(target);
+        //this.transform.LookAt(target);
 
         //按住右键时，以坦克为中心点，y轴为旋转轴，鼠标横向移动为依据，移动摄像机
         if(Input.GetMouseButton(1))

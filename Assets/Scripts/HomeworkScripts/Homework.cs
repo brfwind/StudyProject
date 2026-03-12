@@ -23,6 +23,7 @@ public class NewBehaviourScript : MonoBehaviour
             pos.x += 1f;
             pos.z += 1f;
             newGO.transform.localScale = pos;
+            newGO.transform.SetParent(transform);
         }
     }
 }

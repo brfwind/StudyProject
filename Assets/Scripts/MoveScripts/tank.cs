@@ -18,6 +18,8 @@ public class tank : MonoBehaviour
 
     public Transform Cube;
     public Transform PKpos;
+    public Transform bulletPos;
+    public GameObject bullet;
 
     void Update()
     {
@@ -27,11 +29,20 @@ public class tank : MonoBehaviour
         mouseX = Input.GetAxis("Mouse X");
         
         transform.Translate(Vector3.forward * speedX * forwardSpeed * Time.deltaTime);
-        transform.Rotate(Vector3.up * speedY * Time.deltaTime * rotateSpeed * 2);
+        if(speedX >= 0)
+            transform.Rotate(Vector3.up * speedY * Time.deltaTime * rotateSpeed * 2);
+        else
+            transform.Rotate(Vector3.up * speedY * Time.deltaTime * rotateSpeed * -2);
 
         if(!Input.GetMouseButton(1))
             Cube.Rotate(Vector3.up * mouseX * Time.deltaTime * cubeSpeed);
 
         PKpos.Rotate(Vector3.right * mouseScroll * PKSpeed * Time.deltaTime);
+
+
+        if(Input.GetMouseButtonDown(0))
+        {
+            Instantiate(bullet,bulletPos.position,bulletPos.rotation);
+        }
     }
 }

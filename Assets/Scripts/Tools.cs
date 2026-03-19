@@ -27,4 +27,11 @@ public static class Tools
             list[i].SetSiblingIndex(i);
         }
     }
+
+    public static void MyLookAt(this Transform obj,Transform other)
+    {
+        Vector3 vec = other.position - obj.position;
+        Quaternion dir = Quaternion.LookRotation(vec);
+        obj.transform.rotation = dir;
+    }
 }
